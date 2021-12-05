@@ -6,4 +6,4 @@ services:
     ports:
     - "0.0.0.0:25565:25565"
     volumes:
-    - ./world:/campfire/cozy
+    - /mc-world:/campfire/cozy
