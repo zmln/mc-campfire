@@ -16,6 +16,7 @@ cp /campfire/downloads/worldguard.jar /campfire/cozy/plugins/worldguard.jar
 
 cp /campfire/configs/whitelist.json /campfire/cozy/whitelist.json
 cp /campfire/configs/server.properties /campfire/cozy/server.properties
+cp /campfire/configs/paper.yml /campfire/cozy/paper.yml
 cp /campfire/configs/worldedit.yml /campfire/cozy/plugins/WorldEdit/config.yml
 cp /campfire/configs/worldguard.yml /campfire/cozy/plugins/WorldGuard/config.yml
 
