@@ -5,8 +5,8 @@ RUN apt-get update && apt-get install -y curl
 RUN mkdir -p /campfire/cozy && mkdir /campfire/downloads
 WORKDIR /campfire
 
-ARG MINECRAFT_VERSION=1.18
-ARG PAPER_BUILD=43
+ARG MINECRAFT_VERSION=1.18.1
+ARG PAPER_BUILD=68
 ARG SERVER_DOWNLOAD_URL=https://papermc.io/api/v2/projects/paper/versions/$MINECRAFT_VERSION/builds/$PAPER_BUILD/downloads/paper-$MINECRAFT_VERSION-$PAPER_BUILD.jar
 RUN curl -L -o /campfire/downloads/paper.jar $SERVER_DOWNLOAD_URL
 
